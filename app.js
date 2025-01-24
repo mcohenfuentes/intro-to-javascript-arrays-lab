@@ -113,5 +113,38 @@ let soyIdx = foods[3]
 console.log(soyIdx)
 
 
+/*
+Exercise 9: Joining elements
+
+1) Use the `join()` method to concatenate the strings in the `foods` array, 
+   separated by ' -> '. 
+
+2) Assign the result to a variable called `allFoods`. 
+
+Note: The final result should log as:
+'taco -> sushi -> cupcake -> tofu -> cheeseburger'
+
+Complete Exercise 9 in the space below:
+*/
+
+console.log(foods.join(' -> '))
+
+let allFoods = foods.join(' -> ')
+
+console.log(allFoods);
 
 
+/*
+Exercise 10: Check for an element
+
+1) Using the .includes() method, check if the `foods` array contains the string
+   'soup'.
+
+2) Assign the result to a variable called `hasSoup``.
+
+Complete Exercise 10 in the space below:
+*/
+
+console.log(foods.includes('soup'))
+
+// how would you do part 2 if the variable doesn't exist in the array?
